@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>self change</title>
+<style>
+* {box-sizing: border-box}
+.mySlides1, .mySlides2 {display: none}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 200px;
+  position: relative;
+  margin: auto;
+}
+/* Next & previous buttons */
+.prev, .next {
+  cursor:pointer;
+  position: absolute;
+  top: 20%;
+  width: auto;
+  padding:4px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 2px 2px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 1px 0 0 1px;
+  user-select: none;
+}
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 1px 0 0 1px;
+}
+
+/* On hover, add a grey background color */
+.prev:hover, .next:hover {
+  background-color: #f1f1f1;
+  color: black;
+}
+</style>
+</head>
+<h2 style="text-align:center">CHANGING ONESELF</h2>
+<div class="slideshow-container">
+  <div class="mySlides1">
+    <img src="70.jpg" style="width:100%">
+  </div>
+  <div class="mySlides1">
+    <img src="71.jpg" style="width:100%">
+  </div>
+<div class="mySlides1">
+    <img src="72.jpg" style="width:100%">
+  </div>
+  <div class="mySlides1">
+    <img src="73.jpg" style="width:100%">
+  </div>
+  <div class="mySlides1">
+    <img src="74.jpg" style="width:100%">
+  </div>
+<div class="mySlides1">
+    <img src="75.jpg" style="width:100%">
+  </div>
+  <div class="mySlides1">
+    <img src="76.jpg" style="width:100%">
+  </div>
+  <div class="mySlides1">
+    <img src="77.jpg" style="width:100%">
+  </div>
+  <div class="mySlides1">
+    <img src="78.jpg" style="width:100%">
+  </div>
+ <div class="mySlides1">
+    <img src="79.jpg" style="width:100%">
+  </div>
+    <div class="mySlides1">
+    <img src="80.jpg" style="width:100%">
+  </div> 
+   <div class="mySlides1">
+    <img src="81.jpg" style="width:100%">
+  </div> 
+   <div class="mySlides1">
+    <img src="82.jpg" style="width:100%">
+  </div> 
+  <div class="mySlides1">
+    <img src="83.jpg" style="width:100%">
+  </div> 
+ <div class="mySlides1">
+    <img src="84.jpg" style="width:100%">
+  </div> 
+  <div class="mySlides1">
+    <img src="85.jpg" style="width:100%">
+  </div> 
+  <div class="mySlides1">
+    <img src="86.jpg" style="width:100%">
+  </div> 
+    <div class="mySlides1">
+    <img src="87.jpg" style="width:100%">
+  </div>    
+   <div class="mySlides1">
+    <img src="88.jpg" style="width:100%">
+  </div>  
+    <div class="mySlides1">
+    <img src="89.jpg" style="width:100%">
+  </div>      
+  <a class="prev" onclick="plusSlides(-1, 0)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1,0)">&#10095;</a>
+  </div>
+  </div>
+ 
+  	<script>
+var slideIndex = [1,1];
+var slideId = ["mySlides1"]
+showSlides(1, 0);
+function plusSlides(n, no) {
+  showSlides(slideIndex[no] += n, no);
+}
+
+function showSlides(n, no) {
+  var i;
+  var x = document.getElementsByClassName(slideId[no]);
+  if (n > x.length) {slideIndex[no] = 1}    
+  if (n < 1) {slideIndex[no] = x.length}
+  for (i = 0; i < x.length; i++) {
+     x[i].style.display = "none";  
+  }
+  x[slideIndex[no]-1].style.display = "block";  }
+</script>
+</body>
+</html>

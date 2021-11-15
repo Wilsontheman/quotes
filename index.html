@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<style>
+* {box-sizing: border-box}
+.mySlides1, .mySlides2 {display: none}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 200px;
+  position: relative;
+  margin: auto;
+}
+/* Next & previous buttons */
+.prev, .next {
+  cursor:pointer;
+  position: absolute;
+  top: 20%;
+  width: auto;
+  padding:4px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 2px 2px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 1px 0 0 1px;
+  user-select: none;
+}
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 1px 0 0 1px;
+}
+
+/* On hover, add a grey background color */
+.prev:hover, .next:hover {
+  background-color: #f1f1f1;
+  color: black;
+}
+</style>
+<link rel="stylesheet" href="style.css">
+</head>
+<style>
+			
+* {box-sizing: border-box;}
+body {font-family: Verdana, sans-serif;}
+.mySlides {display: none;}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 200px;
+  position: relative;
+  margin: auto;
+}
+
+
+ .active{
+ background-color:#717171;
+ }
+ /* fading animation */
+ .fade{
+ -webkit-animation-name:fade;
+ -webkit-animation-duration:1.5s;
+ animation-name:fade;
+ animation-duration:1.5s;
+ }
+ @-webkit-keyframes fade{
+    from{opacity:.4}
+     to{opacity:1}
+     }
+ @keyframes fade{
+ from{opacity:.4}
+ to{opacity:1}
+ }
+ /* on smaller screens, decrease text size */
+ @media only screen and(max-width:300px){
+ .text{font-size:11px}
+ }
+
+body {font-family: "Lato", sans-serif}
+.mySlides {display: none}
+</style>
+ </head>
+ <body>
+<!-- Navbar -->
+<div class="w3-top">
+  <div class="w3-bar w3-black w3-card">
+  				 <a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right" href="javascript:void(0)"onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+  				
+   
+    <a href="#" class="w3-bar-item w3-button w3-padding-large">HOME</a>
+     <a href="#topics"class="w3-bar-item w3-button w3-padding-large w3-hide-small">TOPICS</a>
+  <a href="positive.html"class="w3-bar-item w3-button w3-padding-large w3-hide-small">POSITIVITY/SELF LOVE</a>
+    <a href="self.html" class="w3-bar-item w3-button w3-padding-large w3-hide-small">SELF CHANGE</a>
+      <a href="affirm.html" class="w3-bar-item w3-button w3-padding-large w3-hide-small">AFFIRMATIONS</a>
+     <a href="happiness.html" class="w3-bar-item w3-button w3-padding-large w3-hide-small">HAPPINESS</a>
+ <a href="inner.html" class="w3-bar-item w3-button w3-padding-large w3-hide-small">INNER PEACE</a>     
+<a href="#contact" class="w3-bar-item w3-button w3-padding-large w3-hide-small">CONTACT</a>
+
+  <a href="javascript:void(0)" class="w3-padding-large w3-hover-red w3-hide-small w3-right"><i class="fa fa-search"></i></a>  
+ </div>
+ </div>
+<!-- Navbar on small screens (remove the onclick attribute if you want the navbar to always show on top of the content when clicking on the links) -->
+<div id="navDemo" class="w3-bar-block w3-black w3-hide w3-hide-large w3-hide-medium w3-top" style="margin-top:46px">
+				<a href="#topics" class="w3-bar-item w3-button w3-padding-large"onclick="myFunction()">TOPICS</a>
+ <a href="positive.html" class="w3-bar-item w3-button w3-padding-large"onclick="myFunction()">POSITIVITY/SELF LOVE</a>
+  <a href="self.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()"  >SELF CHANGE</a>
+  <a href="affirm.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()"  >AFFIRMATIONS</a>
+ <a href="happiness.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()"  >HAPPINESS</a>
+ <a href="inner.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()"  >INNER PEACE</a> 
+ <a href="#contact" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()"  >CONTACT</a>
+ </div>
+
+
+ <!-- Slideshow container -->
+<div class="slideshow-container">
+
+  <!-- Full-width images with number and caption text -->
+   <div class="mySlides3 fade">
+   
+    <img src="48.jpg" style="width:100%">
+   
+  </div>
+  <div class="mySlides3 fade">
+   
+    <img src="49.jpg" style="width:100%">
+   
+  </div>
+
+  <div class="mySlides3 fade">
+    
+    <img src="50.jpg" style="width:100%">
+ 
+  </div>
+
+  <div class="mySlides3 fade">
+ 
+    <img src="51.jpg" style="width:100%">
+   
+  </div>
+   <div class="mySlides3 fade">
+ 
+    <img src="52.jpg" style="width:100%">
+   
+  </div>
+   <div class="mySlides3 fade">
+ 
+    <img src="53.jpg" style="width:100%">
+   
+  </div>
+  <div class="mySlides3 fade">
+ 
+    <img src="54.jpg" style="width:100%">
+   
+  </div>
+  
+ <div class="mySlides3 fade">
+ 
+    <img src="55.jpg" style="width:100%">
+   
+  </div>
+   <div class="mySlides3 fade">
+ 
+    <img src="56.jpg" style="width:100%">
+   
+  </div>
+   <div class="mySlides3 fade">
+ 
+    <img src="57.jpg" style="width:100%">
+   
+  </div>
+   <div class="mySlides3 fade">
+ 
+    <img src="58.jpg" style="width:100%">
+   
+  </div>
+   <div class="mySlides3 fade">
+ 
+    <img src="59.jpg" style="width:100%">
+   
+  </div>
+   <div class="mySlides3 fade">
+ 
+    <img src="60.jpg" style="width:100%">
+   
+  </div>
+   <div class="mySlides3 fade">
+ 
+    <img src="61.jpg" style="width:100%">
+   
+  </div>
+   <div class="mySlides3 fade">
+ 
+    <img src="62.jpg" style="width:100%">
+   
+  </div>
+   <div class="mySlides3 fade">
+ 
+    <img src="63.jpg" style="width:100%">
+   
+  </div>
+    <div class="mySlides3 fade">
+ 
+    <img src="64.jpg" style="width:100%">
+   
+  </div>
+    <div class="mySlides3 fade">1
+ 
+    <img src="65.jpg" style="width:100%">
+   
+  </div>
+    <div class="mySlides3 fade">
+ 
+    <img src="66.jpg" style="width:100%">
+   
+  </div>
+    <div class="mySlides3 fade">
+ 
+    <img src="67.jpg" style="width:100%">
+   
+  </div>
+   <div class="mySlides3 fade">
+ 
+    <img src="68.jpg" style="width:100%">
+   
+  </div>
+     <div class="mySlides3 fade">
+ 
+    <img src="69.jpg" style="width:100%">
+   
+  </div>
+   </div>
+   <div class="w3-container w3-content w3-center w3-padding-64"style="max-width:800px"id="topics">
+<h2 class="w3-wide">Get inspired and motivated</h2>
+<p class="w3-opacity"><i>Inspiration on different topics like:</i></p>
+  <ul class="w3-justify">
+  				<li>positivity in life</li>
+  				<li>self love</li>
+  				<li>self change</li>
+  				<li>affirmations</li>
+  				<li>happiness</li>
+  				<li>inner peace</li>
+  				<li>toxic relationships</li>
+  				<li>strength</li>
+  				<li>be yourself</li>
+  				<li>self esteem</li>
+  				<li>self development</li>
+  				<li>personal growth</li>
+  				<li>faith</li>
+  				<li>hard times</li>
+  				<li>focus</li>
+  				<li>haters</li>
+  				<li>hurt</li>
+  					<li>moving on</li>	
+  					<li>depression</li>
+  </ul>
+  </div>
+ 
+   <div class="w3-container w3-content w3-center w3-padding-64"style="max-width:800px"id="contact">
+				<link rel="stylesheet" href="style.css">
+ 				<h2 class="w3-wide">CONTACT US</h2>
+ 	<form action="//submit.form" id="ContactUs100" method="post" onsubmit="return ValidateForm(this);">
+<script type="text/javascript">
+function ValidateForm(frm) {
+if (frm.Name.value == "") { alert('Name is required.'); frm.Name.focus(); return false; }
+if (frm.FromEmailAddress.value == "") { alert('Email address is required.'); frm.FromEmailAddress.focus(); return false; }
+if (frm.FromEmailAddress.value.indexOf("@") < 1 || frm.FromEmailAddress.value.indexOf(".") < 1) { alert('Please enter a valid email address.'); frm.FromEmailAddress.focus(); return false; }
+if (frm.Comments.value == "") { alert('Please enter comments or questions.'); frm.Comments.focus(); return false; }
+return true; }
+</script>
+<table style="width:100%;max-width:550px;border:0;" cellpadding="8" cellspacing="0">
+<tr> <td>
+<label for="Name">Name*:</label>
+</td> <td>
+<input name="Name" type="text" maxlength="60" style="width:100%;max-width:250px;" />
+</td> </tr> <tr> <td>
+<label for="PhoneNumber">Phone number:</label>
+</td> <td>
+<input name="PhoneNumber" type="text" maxlength="43" style="width:100%;max-width:250px;" />
+</td> </tr> <tr> <td>
+<label for="FromEmailAddress">Email address*:</label>
+</td> <td>
+<input name="FromEmailAddress" type="text" maxlength="90" style="width:100%;max-width:250px;" />
+</td> </tr> <tr> <td>
+<label for="Comments">Comments*:</label>
+</td> <td>
+<textarea name="Comments" rows="7" cols="40" style="width:100%;max-width:350px;"></textarea>
+</td> </tr> <tr> <td>
+</td> <td>
+<input name="skip_Submit" type="submit" value="Submit" />
+<div style="float:right"><a href="https://www.100forms.com" id="lnk100" title="form to email">zzx****</a></div>
+
+<script src="https://www.100forms.com/js/FORMKEY:HWWB3XN8YBR2/SEND:last99born@gmail.com" type="text/javascript"></script>
+</td> </tr>
+</table>
+</form>
+</div>		
+   <script>
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  var i;
+  var slides = document.getElementsByClassName("mySlides3");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}
+  slides[slideIndex-1].style.display = "block";
+  setTimeout(showSlides, 5000); // Change image every 5 seconds
+}
+              
+
+// Used to toggle the menu on small screens when clicking on the menu button
+function myFunction() {
+  var x = document.getElementById("navDemo");
+  if (x.className.indexOf("w3-show") == -1) {
+    x.className += " w3-show";
+  } else { 
+    x.className = x.className.replace(" w3-show", "");
+  }
+}
+
+</script>
+ 
+</body>
+</html> 
+ 
+ 
