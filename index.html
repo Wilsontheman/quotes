@@ -15,9 +15,52 @@
   				background-attachment : fixed ;
   				background-repeat:no-repeat;
   				}
-* {box-sizing: border-box}
-.mySlides1, {display: none}
-img {vertical-align: middle;}
+* {
+box-sizing: border-box;
+}
+
+img {
+vertical-align: middle;
+}
+
+
+
+/* Slides */
+.mySlides1 {
+  display: none;
+  padding: 3px;
+  align-content: center;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -30px;
+  padding: 14px;
+  color: #888;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  position: absolute;
+  right:80px;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+  color: white;
+}
+
+
 
 /* Slideshow container */
 .slideshow-container {
