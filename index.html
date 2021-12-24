@@ -42,7 +42,28 @@ img {
   
 }
 
-/
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: flex;
+  top:25%;
+  width: auto;
+  margin-top: -30px;
+  padding: 14px;
+  color: #888;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+  color: white;
+}
+
 
 /* Slideshow container */
 .slideshow-container {
@@ -84,7 +105,7 @@ img {
 /* On hover, add a grey background color */
 .prev:hover, .next:hover {
   background-color: #f1f1f1;
-  color: white;
+  color: black;
 }
 /* on smaller screens, decrease text size */
  @media only screen and(max-width:300px){
@@ -149,16 +170,13 @@ body {font-family: "Lato", sans-serif}
   <div>
   <h2 style="text-align:center">GET INSPIRED DAILY</h2>
 <div class="slideshow-container">
-  
-   <div class="mySlides1">
+  <div class="mySlides1">
     <img src="IMG-20211217-WA0001.jpg" style="width:100%">
 	</div>
  <div class="mySlides1">
     <img src="IMG-20211217-WA0002.jpg" style="width:100%">
   </div>
-   <div class="mySlides1">
-    <img src="IMG-20211217-WA0003.jpg" style="width:100%">
-  </div>
+  
    <div class="mySlides1">
     <img src="IMG-20211217-WA0004.jpg" style="width:100%">
   </div>
@@ -184,7 +202,7 @@ body {font-family: "Lato", sans-serif}
 
   <div class="mySlides1">
     <img src="IMG-20211217-WA0011.jpg" style="width:100%">
-  </div>
+  </div>i
    
    <div class="mySlides1">
     <img src="IMG-20211217-WA0014.jpg" style="width:100%">
@@ -581,7 +599,9 @@ body {font-family: "Lato", sans-serif}
     <img src="IMG-20211215-WA0100.jpg" style="width:100%">
   </div>			  
   
- <div class="mySlides1">
+  
+  
+   <div class="mySlides1">
     <img src="IMG-20211215-WA0101.jpg" style="width:100%">
   </div>	
 		
@@ -701,11 +721,8 @@ body {font-family: "Lato", sans-serif}
 
 <div class="mySlides1">
     <img src="IMG-20211215-WA0137.jpg" style="width:100%">
-  </div
-  <div class="mySlides1">
-    <img src="IMG-20211215-WA0138.jpg" style="width:100%">
   </div>
-   <div class="mySlides1">
+  <div class="mySlides1">
     <img src="IMG-20211215-WA0139.jpg" style="width:100%">
   </div>
   <div class="mySlides1">
@@ -822,7 +839,7 @@ body {font-family: "Lato", sans-serif}
     <img src="IMG-20211215-WA0176.jpg" style="width:100%">
   </div>
   <div class="mySlides1">
-    <img src="IMG-20211215-WA0177.jpg" style="width:100%">
+  <img src="IMG-20211215-WA0177.jpg" style="width:100%">
   </div> 
   <div class="mySlides1">
     <img src="IMG-20211215-WA0178.jpg" style="width:100%">
@@ -1010,14 +1027,12 @@ body {font-family: "Lato", sans-serif}
    <div class="mySlides1">
     <img src="IMG-20211215-WA0236.jpg" style="width:100%">
   </div>
-
 <div class="mySlides1">
     <img src="IMG-20211215-WA0237.jpg" style="width:100%">
-  </div
-  <div class="mySlides1">
-    <img src="IMG-20211215-WA0238.jpg" style="width:100%">
   </div>
-   <div class="mySlides1">
+
+
+<div class="mySlides1">
     <img src="IMG-20211215-WA0239.jpg" style="width:100%">
   </div>
   <div class="mySlides1">
@@ -1326,12 +1341,13 @@ body {font-family: "Lato", sans-serif}
 
 <div class="mySlides1">
     <img src="IMG-20211215-WA0337.jpg" style="width:100%">
-  </div
-  <div class="mySlides1">
-    <img src="IMG-20211215-WA0338.jpg" style="width:100%">
   </div>
+    <div class="mySlides1">
+    <img src="IMG-20211215-WA0338.jpg" style="width:100%">
+     </div>
    <div class="mySlides1">
     <img src="IMG-20211215-WA0339.jpg" style="width:100%">
+    
   </div>
   <div class="mySlides1">
     <img src="IMG-20211215-WA0340.jpg" style="width:100%">
@@ -1640,14 +1656,15 @@ body {font-family: "Lato", sans-serif}
 
 <div class="mySlides1">
     <img src="IMG-20211215-WA0437.jpg" style="width:100%">
-  </div
+  </div>
   <div class="mySlides1">
     <img src="IMG-20211215-WA0438.jpg" style="width:100%">
-  </div>
-   <div class="mySlides1">
-    <img src="IMG-20211215-WA0439.jpg" style="width:100%">
+    
   </div>
   <div class="mySlides1">
+    <img src="IMG-20211215-WA0439.jpg" style="width:100%">
+    </div>
+   <div class="mySlides1">
     <img src="IMG-20211215-WA0440.jpg" style="width:100%">
   </div>
 
@@ -1957,13 +1974,13 @@ body {font-family: "Lato", sans-serif}
 
 <div class="mySlides1">
     <img src="IMG-20211215-WA0537.jpg" style="width:100%">
-  </div
+  </div>
   <div class="mySlides1">
     <img src="IMG-20211215-WA0538.jpg" style="width:100%">
-  </div>
+     </div>
    <div class="mySlides1">
     <img src="IMG-20211215-WA0539.jpg" style="width:100%">
-  </div>
+      </div>
   <div class="mySlides1">
     <img src="IMG-20211215-WA0540.jpg" style="width:100%">
   </div>
@@ -2261,21 +2278,22 @@ body {font-family: "Lato", sans-serif}
    <div class="mySlides1">
     <img src="IMG-20211215-WA0635.jpg" style="width:100%">
   </div>
- 
-   <div class="mySlides1">
+  <div class="mySlides1">
     <img src="IMG-20211215-WA0636.jpg" style="width:100%">
   </div>
 
 <div class="mySlides1">
     <img src="IMG-20211215-WA0637.jpg" style="width:100%">
-  </div
+  </div>
   <div class="mySlides1">
     <img src="IMG-20211215-WA0638.jpg" style="width:100%">
+
   </div>
-   <div class="mySlides1">
+ 
+ <div class="mySlides1">
     <img src="IMG-20211215-WA0639.jpg" style="width:100%">
   </div>
-  <div class="mySlides1">
+   <div class="mySlides1">
     <img src="IMG-20211215-WA0640.jpg" style="width:100%">
   </div>
 
@@ -2574,20 +2592,21 @@ body {font-family: "Lato", sans-serif}
    <div class="mySlides1">
     <img src="IMG-20211215-WA0735.jpg" style="width:100%">
   </div>
- 
-   <div class="mySlides1">
+ <div class="mySlides1">
     <img src="IMG-20211215-WA0736.jpg" style="width:100%">
+    
   </div>
 
 <div class="mySlides1">
     <img src="IMG-20211215-WA0737.jpg" style="width:100%">
-  </div
+  </div>
   <div class="mySlides1">
     <img src="IMG-20211215-WA0738.jpg" style="width:100%">
   </div>
-   <div class="mySlides1">
+  <div class="mySlides1">
     <img src="IMG-20211215-WA0739.jpg" style="width:100%">
-  </div>
+ </div>
+  
   <div class="mySlides1">
     <img src="IMG-20211215-WA0740.jpg" style="width:100%">
   </div>
@@ -2887,14 +2906,14 @@ body {font-family: "Lato", sans-serif}
    <div class="mySlides1">
     <img src="IMG-20211215-WA0835.jpg" style="width:100%">
   </div>
- 
-   <div class="mySlides1">
+  <div class="mySlides1">
     <img src="IMG-20211215-WA0836.jpg" style="width:100%">
+    
   </div>
 
 <div class="mySlides1">
     <img src="IMG-20211215-WA0837.jpg" style="width:100%">
-  </div
+  </div>
   <div class="mySlides1">
     <img src="IMG-20211215-WA0838.jpg" style="width:100%">
   </div>
@@ -3175,7 +3194,7 @@ body {font-family: "Lato", sans-serif}
     <div class="mySlides1">
     <img src="IMG-20211215-WA0927.jpg" style="width:100%">
   </div>
-    <div class="mySlides1">
+ <div class="mySlides1">
     <img src="IMG-20211215-WA0928.jpg" style="width:100%">
   </div>
     <div class="mySlides1">
@@ -3199,14 +3218,14 @@ body {font-family: "Lato", sans-serif}
    <div class="mySlides1">
     <img src="IMG-20211215-WA0935.jpg" style="width:100%">
   </div>
- 
-   <div class="mySlides1">
+ <div class="mySlides1">
     <img src="IMG-20211215-WA0936.jpg" style="width:100%">
+    
   </div>
 
 <div class="mySlides1">
     <img src="IMG-20211215-WA0937.jpg" style="width:100%">
-  </div
+  </div>
   <div class="mySlides1">
     <img src="IMG-20211215-WA0938.jpg" style="width:100%">
   </div>
@@ -4698,6 +4717,300 @@ body {font-family: "Lato", sans-serif}
 	
 	
 	
+   
+
+  
+  
+ <div class="mySlides1">
+    <img src="IMG-20211215-WA0000.jpg" style="width:100%">
+  </div>	
+		
+  
+  
+	 <div class="mySlides1">
+    <img src="IMG-20211215-WA0002.jpg" style="width:100%">
+  </div>
+   <div class="mySlides1">
+    <img src="IMG-20211215-WA0003.jpg" style="width:100%">
+  </div>
+   <div class="mySlides1">
+    <img src="IMG-20211215-WA0004.jpg" style="width:100%">
+  </div>
+   <div class="mySlides1">
+    <img src="IMG-20211215-WA0005.jpg" style="width:100%">
+  </div>
+   <div class="mySlides1">
+    <img src="IMG-20211215-WA0006.jpg" style="width:100%">
+  </div>
+   <div class="mySlides1">
+    <img src="IMG-20211215-WA0007.jpg" style="width:100%">
+  </div>
+  			
+		  <div class="mySlides1">
+    <img src="IMG-20211215-WA0008.jpg" style="width:100%">
+  </div>
+  <div class="mySlides1">
+    <img src="IMG-20211215-WA0009.jpg" style="width:100%">
+  </div>
+  <div class="mySlides1">
+    <img src="IMG-20211215-WA0010.jpg" style="width:100%">
+  </div>
+
+  <div class="mySlides1">
+    <img src="IMG-20211215-WA0011.jpg" style="width:100%">
+  </div>
+   
+   <div class="mySlides1">
+    <img src="IMG-20211215-WA0014.jpg" style="width:100%">
+  </div>
+  <div class="mySlides1">
+    <img src="IMG-20211215-WA0015.jpg" style="width:100%">
+  </div>
+  <div class="mySlides1">
+    <img src="IMG-20211215-WA0016.jpg" style="width:100%">
+
+  </div>
+  
+   <div class="mySlides1">
+    <img src="IMG-20211215-WA0017.jpg" style="width:100%">
+  </div>
+ 
+  <div class="mySlides1">
+    <img src="IMG-20211215-WA0018.jpg" style="width:100%">
+  </div>
+  <div class="mySlides1">
+    <img src="IMG-20211215-WA0019.jpg" style="width:100%">
+  </div>
+  <div class="mySlides1">
+    <img src="IMG-20211215-WA0020.jpg" style="width:100%">
+  </div>
+    <div class="mySlides1">
+    <img src="IMG-20211215-WA0021.jpg" style="width:100%">
+  </div>
+    <div class="mySlides1">
+    <img src="IMG-20211215-WA0022.jpg" style="width:100%">
+  </div>
+   <div class="mySlides1">
+    <img src="IMG-20211215-WA0023.jpg" style="width:100%">
+  </div>
+  
+    <div class="mySlides1">
+    <img src="IMG-20211215-WA0026.jpg" style="width:100%">
+  </div>
+    <div class="mySlides1">
+    <img src="IMG-20211215-WA0027.jpg" style="width:100%">
+  </div>
+    <div class="mySlides1">
+    <img src="IMG-20211215-WA0028.jpg" style="width:100%">
+  </div>
+    <div class="mySlides1">
+    <img src="IMG-20211215-WA0029.jpg" style="width:100%">
+  </div>
+    <div class="mySlides1">
+    <img src="IMG-20211215-WA0030.jpg" style="width:100%">
+  </div>
+   <div class="mySlides1">
+    <img src="IMG-20211215-WA0031.jpg" style="width:100%">
+  </div>
+   <div class="mySlides1">
+    <img src="IMG-20211215-WA0032.jpg" style="width:100%">
+  </div>
+   <div class="mySlides1">
+    <img src="IMG-20211215-WA0033.jpg" style="width:100%">
+  </div>
+   <div class="mySlides1">
+    <img src="IMG-20211215-WA0034.jpg" style="width:100%">
+  </div>
+   <div class="mySlides1">
+    <img src="IMG-20211215-WA0035.jpg" style="width:100%">
+  </div>
+ 
+   <div class="mySlides1">
+    <img src="IMG-20211215-WA0036.jpg" style="width:100%">
+  </div>
+
+
+  <div class="mySlides1">
+    <img src="IMG-20211215-WA0038.jpg" style="width:100%">
+  </div>
+   <div class="mySlides1">
+    <img src="IMG-20211215-WA0039.jpg" style="width:100%">
+  </div>
+  <div class="mySlides1">
+    <img src="IMG-20211215-WA0040.jpg" style="width:100%">
+  </div>
+
+  <div class="mySlides1">
+    <img src="IMG-20211215-WA0041.jpg" style="width:100%">
+  </div>
+ <div class="mySlides1">
+    <img src="IMG-20211215-WA0042.jpg" style="width:100%">
+  </div> 
+  <div class="mySlides1">
+    <img src="IMG-20211215-WA0043.jpg" style="width:100%">
+  </div>  
+  <div class="mySlides1">
+    <img src="IMG-20211215-WA0044.jpg" style="width:100%">
+  </div> 
+  <div class="mySlides1">
+    <img src="IMG-20211215-WA0045.jpg" style="width:100%">
+  </div> 
+ 
+ <div class="mySlides1">
+    <img src="IMG-20211215-WA0048.jpg" style="width:100%">
+  </div>  
+  <div class="mySlides1">
+    <img src="IMG-20211215-WA0049.jpg" style="width:100%">
+  </div> 
+  <div class="mySlides1">
+    <img src="IMG-20211215-WA0050.jpg" style="width:100%">
+  </div> 
+   <div class="mySlides1">
+    <img src="IMG-20211215-WA0051.jpg" style="width:100%">
+  </div>
+  <div class="mySlides1">
+    <img src="IMG-20211215-WA0052.jpg" style="width:100%">
+  </div>
+  <div class="mySlides1">
+    <img src="IMG-20211215-WA0053.jpg" style="width:100%">
+  </div>
+  <div class="mySlides1">
+    <img src="IMG-20211215-WA0054.jpg" style="width:100%">
+  </div> 
+  <div class="mySlides1">
+    <img src="IMG-20211215-WA0055.jpg" style="width:100%">
+  </div>
+  <div class="mySlides1">
+    <img src="IMG-20211215-WA0056.jpg" style="width:100%">
+  </div>
+  <div class="mySlides1">
+    <img src="IMG-20211215-WA0057.jpg" style="width:100%">
+  </div>
+ 
+  <div class="mySlides1">
+    <img src="IMG-20211215-WA0059.jpg" style="width:100%">
+  </div>
+  
+ <div class="mySlides1">
+    <img src="IMG-20211215-WA0060.jpg" style="width:100%">
+  </div>
+   <div class="mySlides1">
+    <img src="IMG-20211215-WA0061.jpg" style="width:100%">
+  </div>
+   <div class="mySlides1">
+    <img src="IMG-20211215-WA0062.jpg" style="width:100%">
+  </div>
+   <div class="mySlides1">
+    <img src="IMG-20211215-WA0063.jpg" style="width:100%">
+  </div>
+ 
+   <div class="mySlides1">
+    <img src="IMG-20211215-WA0065.jpg" style="width:100%">
+  </div>
+ 
+   <div class="mySlides1">
+    <img src="IMG-20211215-WA0067.jpg" style="width:100%">
+  </div>
+   <div class="mySlides1">
+    <img src="IMG-20211215-WA0068.jpg" style="width:100%">
+  </div>
+   <div class="mySlides1">
+    <img src="IMG-20211215-WA0069.jpg" style="width:100%">
+  </div>
+  <div class="mySlides1">
+    <img src="IMG-20211215-WA0070.jpg" style="width:100%">
+  </div> 
+  <div class="mySlides1">
+    <img src="IMG-20211215-WA0071.jpg" style="width:100%">
+  </div> 
+  <div class="mySlides1">
+    <img src="IMG-20211215-WA0072.jpg" style="width:100%">
+  </div> 
+  <div class="mySlides1">
+    <img src="IMG-20211215-WA0073.jpg" style="width:100%">
+  </div> 
+  <div class="mySlides1">
+    <img src="IMG-20211215-WA0074.jpg" style="width:100%">
+  </div> 
+  <div class="mySlides1">
+    <img src="IMG-20211215-WA0075.jpg" style="width:100%">
+  </div> 
+  <div class="mySlides1">
+    <img src="IMG-20211215-WA0076.jpg" style="width:100%">
+  </div>
+  <div class="mySlides1">
+    <img src="IMG-20211215-WA0077.jpg" style="width:100%">
+  </div> 
+  <div class="mySlides1">
+    <img src="IMG-20211215-WA0078.jpg" style="width:100%">
+  </div>  
+  <div class="mySlides1">
+    <img src="IMG-20211215-WA0079.jpg" style="width:100%">
+  </div> 
+
+   <div class="mySlides1">
+    <img src="IMG-20211215-WA0081.jpg" style="width:100%">
+  </div> 
+   <div class="mySlides1">
+    <img src="IMG-20211215-WA0082.jpg" style="width:100%">
+  </div>
+  <div class="mySlides1">
+    <img src="IMG-20211215-WA0083.jpg" style="width:100%">
+  </div> 
+  
+   <div class="mySlides1">
+    <img src="IMG-20211215-WA0085.jpg" style="width:100%">
+  </div>
+   <div class="mySlides1">
+    <img src="IMG-20211215-WA0086.jpg" style="width:100%">
+  </div>
+   <div class="mySlides1">
+    <img src="IMG-20211215-WA0087.jpg" style="width:100%">
+  </div>
+
+  <div class="mySlides1">
+    <img src="IMG-20211215-WA0090.jpg" style="width:100%">
+  </div>
+  <div class="mySlides1">
+    <img src="IMG-20211215-WA0091.jpg" style="width:100%">
+  </div>
+  <div class="mySlides1">
+    <img src="IMG-20211215-WA0092.jpg" style="width:100%">
+  </div>
+        <div class="mySlides1">
+    <img src="IMG-20211215-WA0093.jpg" style="width:100%">
+  </div>
+  <div class="mySlides1">
+    <img src="IMG-20211215-WA0094.jpg" style="width:100%">
+  </div>
+  <div class="mySlides1">
+    <img src="IMG-20211215-WA0095.jpg" style="width:100%">
+  </div>
+  <div class="mySlides1">
+    <img src="IMG-20211215-WA0096.jpg" style="width:100%">
+  </div>
+ 
+  <div class="mySlides1">
+    <img src="IMG-20211215-WA0098.jpg" style="width:100%">
+  </div>
+  <div class="mySlides1">
+    <img src="IMG-20211215-WA0099.jpg" style="width:100%">
+  </div>
+        <div class="mySlides1">
+    <img src="IMG-20211215-WA0100.jpg" style="width:100%">
+  </div>			  
+  
+  
+      
+  
+  
+  
+  
+  
+  
+  
+  
+  
     <div class="mySlides1">
     <img src="IMG-20211214-WA0000.jpg" style="width:100%">
   </div>	
@@ -6476,9 +6789,7 @@ body {font-family: "Lato", sans-serif}
   <div class="mySlides1">
     <img src="IMG-20211214-WA0580.jpg" style="width:100%">
   </div>
-   <div class="mySlides1">
-    <img src="IMG-20211214-WA0581.jpg" style="width:100%">
-  </div> 
+  
    <div class="mySlides1">
     <img src="IMG-20211214-WA0582.jpg" style="width:100%">
   </div>
@@ -6658,9 +6969,7 @@ body {font-family: "Lato", sans-serif}
    <div class="mySlides1">
     <img src="IMG-20211214-WA0639.jpg" style="width:100%">
   </div>
-  <div class="mySlides1">
-    <img src="IMG-20211214-WA0640.jpg" style="width:100%">
-  </div>
+ 
 
   <div class="mySlides1">
     <img src="IMG-20211214-WA0641.jpg" style="width:100%">
@@ -6719,10 +7028,7 @@ body {font-family: "Lato", sans-serif}
   <div class="mySlides1">
     <img src="IMG-20211214-WA0659.jpg" style="width:100%">
   </div>
-  
- <div class="mySlides1">
-    <img src="IMG-20211214-WA0660.jpg" style="width:100%">
-  </div>
+
    <div class="mySlides1">
     <img src="IMG-20211214-WA0661.jpg" style="width:100%">
   </div>
@@ -6744,9 +7050,7 @@ body {font-family: "Lato", sans-serif}
    <div class="mySlides1">
     <img src="IMG-20211214-WA0667.jpg" style="width:100%">
   </div>
-   <div class="mySlides1">
-    <img src="IMG-20211214-WA0668.jpg" style="width:100%">
-  </div>
+ 
    <div class="mySlides1">
     <img src="IMG-20211214-WA0669.jpg" style="width:100%">
   </div>
@@ -6798,9 +7102,7 @@ body {font-family: "Lato", sans-serif}
    <div class="mySlides1">
     <img src="IMG-20211214-WA0685.jpg" style="width:100%">
   </div>
-   <div class="mySlides1">
-    <img src="IMG-20211214-WA0686.jpg" style="width:100%">
-  </div>
+
    <div class="mySlides1">
     <img src="IMG-20211214-WA0687.jpg" style="width:100%">
   </div>
@@ -6945,9 +7247,7 @@ body {font-family: "Lato", sans-serif}
    <div class="mySlides1">
     <img src="IMG-20211214-WA0733.jpg" style="width:100%">
   </div>
-   <div class="mySlides1">
-    <img src="IMG-20211214-WA0734.jpg" style="width:100%">
-  </div>
+
    <div class="mySlides1">
     <img src="IMG-20211214-WA0735.jpg" style="width:100%">
   </div>
@@ -7114,9 +7414,7 @@ body {font-family: "Lato", sans-serif}
   <div class="mySlides1">
     <img src="IMG-20211214-WA0788.jpg" style="width:100%">
   </div>
-  <div class="mySlides1">
-    <img src="IMG-20211214-WA0789.jpg" style="width:100%">
-  </div>
+  
   <div class="mySlides1">
     <img src="IMG-20211214-WA0790.jpg" style="width:100%">
   </div>
@@ -7166,9 +7464,7 @@ body {font-family: "Lato", sans-serif}
    <div class="mySlides1">
     <img src="IMG-20211214-WA0805.jpg" style="width:100%">
   </div>
-   <div class="mySlides1">
-    <img src="IMG-20211214-WA0806.jpg" style="width:100%">
-  </div>
+ 
    <div class="mySlides1">
     <img src="IMG-20211214-WA0807.jpg" style="width:100%">
   </div>
@@ -7195,33 +7491,7 @@ body {font-family: "Lato", sans-serif}
   <div class="mySlides1">
     <img src="IMG-20211214-WA0815.jpg" style="width:100%">
   </div>
-  <div class="mySlides1">
-    <img src="IMG-20211214-WA0816.jpg" style="width:100%">
-
-  </div>
   
-   <div class="mySlides1">
-    <img src="IMG-20211214-WA0817.jpg" style="width:100%">
-  </div>
- 
-  <div class="mySlides1">
-    <img src="IMG-20211214-WA0818.jpg" style="width:100%">
-  </div>
-  <div class="mySlides1">
-    <img src="IMG-20211214-WA0819.jpg" style="width:100%">
-  </div>
-  <div class="mySlides1">
-    <img src="IMG-20211214-WA0820.jpg" style="width:100%">
-  </div>
-    <div class="mySlides1">
-    <img src="IMG-20211214-WA0821.jpg" style="width:100%">
-  </div>
-    <div class="mySlides1">
-    <img src="IMG-20211214-WA0822.jpg" style="width:100%">
-  </div>
-   <div class="mySlides1">
-    <img src="IMG-20211214-WA0823.jpg" style="width:100%">
-  </div>
    <div class="mySlides1">
     <img src="IMG-20211214-WA0824.jpg" style="width:100%">
   </div>
@@ -7231,57 +7501,7 @@ body {font-family: "Lato", sans-serif}
     <div class="mySlides1">
     <img src="IMG-20211214-WA0826.jpg" style="width:100%">
   </div>
-    <div class="mySlides1">
-    <img src="IMG-20211214-WA0827.jpg" style="width:100%">
-  </div>
-    <div class="mySlides1">
-    <img src="IMG-20211214-WA0828.jpg" style="width:100%">
-  </div>
-    <div class="mySlides1">
-    <img src="IMG-20211214-WA0829.jpg" style="width:100%">
-  </div>
-    <div class="mySlides1">
-    <img src="IMG-20211214-WA0830.jpg" style="width:100%">
-  </div>
-   <div class="mySlides1">
-    <img src="IMG-20211214-WA0831.jpg" style="width:100%">
-  </div>
-   <div class="mySlides1">
-    <img src="IMG-20211214-WA0832.jpg" style="width:100%">
-  </div>
-   <div class="mySlides1">
-    <img src="IMG-20211214-WA0833.jpg" style="width:100%">
-  </div>
-   <div class="mySlides1">
-    <img src="IMG-20211214-WA0834.jpg" style="width:100%">
-  </div>
-   <div class="mySlides1">
-    <img src="IMG-20211214-WA0835.jpg" style="width:100%">
-  </div>
  
-   <div class="mySlides1">
-    <img src="IMG-20211214-WA0836.jpg" style="width:100%">
-  </div>
-   <div class="mySlides1">
-    <img src="IMG-20211214-WA0837.jpg" style="width:100%">
-  </div> 
-
-  <div class="mySlides1">
-    <img src="IMG-20211214-WA0838.jpg" style="width:100%">
-  </div>
-   <div class="mySlides1">
-    <img src="IMG-20211214-WA0839.jpg" style="width:100%">
-  </div>
-  <div class="mySlides1">
-    <img src="IMG-20211214-WA0840.jpg" style="width:100%">
-  </div>
-
-  <div class="mySlides1">
-    <img src="IMG-20211214-WA0841.jpg" style="width:100%">
-  </div>
- <div class="mySlides1">
-    <img src="IMG-20211214-WA0842.jpg" style="width:100%">
-  </div> 
   <div class="mySlides1">
     <img src="IMG-20211214-WA0843.jpg" style="width:100%">
   </div>  
@@ -7303,12 +7523,7 @@ body {font-family: "Lato", sans-serif}
   <div class="mySlides1">
     <img src="IMG-20211214-WA0849.jpg" style="width:100%">
   </div> 
-  <div class="mySlides1">
-    <img src="IMG-20211214-WA0850.jpg" style="width:100%">
-  </div> 
-   <div class="mySlides1">
-    <img src="IMG-20211214-WA0851.jpg" style="width:100%">
-  </div>
+
   <div class="mySlides1">
     <img src="IMG-20211214-WA0852.jpg" style="width:100%">
   </div>
@@ -7349,9 +7564,7 @@ body {font-family: "Lato", sans-serif}
    <div class="mySlides1">
     <img src="IMG-20211214-WA0864.jpg" style="width:100%">
   </div>
-   <div class="mySlides1">
-    <img src="IMG-20211214-WA0865.jpg" style="width:100%">
-  </div>
+ 
    <div class="mySlides1">
     <img src="IMG-20211214-WA0866.jpg" style="width:100%">
   </div>
@@ -7367,9 +7580,7 @@ body {font-family: "Lato", sans-serif}
   <div class="mySlides1">
     <img src="IMG-20211214-WA0870.jpg" style="width:100%">
   </div> 
-  <div class="mySlides1">
-    <img src="IMG-20211214-WA0871.jpg" style="width:100%">
-  </div> 
+ 
   <div class="mySlides1">
     <img src="IMG-20211214-WA0872.jpg" style="width:100%">
   </div> 
@@ -7421,9 +7632,7 @@ body {font-family: "Lato", sans-serif}
   <div class="mySlides1">
     <img src="IMG-20211214-WA0888.jpg" style="width:100%">
   </div>
-  <div class="mySlides1">
-    <img src="IMG-20211214-WA0889.jpg" style="width:100%">
-  </div>
+ 
   <div class="mySlides1">
     <img src="IMG-20211214-WA0890.jpg" style="width:100%">
   </div>
@@ -7439,9 +7648,7 @@ body {font-family: "Lato", sans-serif}
   <div class="mySlides1">
     <img src="IMG-20211214-WA0894.jpg" style="width:100%">
   </div>
-  <div class="mySlides1">
-    <img src="IMG-20211214-WA0895.jpg" style="width:100%">
-  </div>
+  
   <div class="mySlides1">
     <img src="IMG-20211214-WA0896.jpg" style="width:100%">
   </div>
@@ -7599,9 +7806,7 @@ body {font-family: "Lato", sans-serif}
   <div class="mySlides1">
     <img src="IMG-20211214-WA0945.jpg" style="width:100%">
   </div> 
-  <div class="mySlides1">
-    <img src="IMG-20211214-WA0946.jpg" style="width:100%">
-  </div> 
+
   <div class="mySlides1">
     <img src="IMG-20211214-WA0947.jpg" style="width:100%">
   </div> 
@@ -7654,9 +7859,7 @@ body {font-family: "Lato", sans-serif}
    <div class="mySlides1">
     <img src="IMG-20211214-WA0963.jpg" style="width:100%">
   </div>
-   <div class="mySlides1">
-    <img src="IMG-20211214-WA0964.jpg" style="width:100%">
-  </div>
+  
    <div class="mySlides1">
     <img src="IMG-20211214-WA0965.jpg" style="width:100%">
   </div>
@@ -7816,9 +8019,7 @@ body {font-family: "Lato", sans-serif}
 	  <div class="mySlides1">
     <img src="IMG-20211214-WA1017.jpg" style="width:100%">
 </div>	
-	  <div class="mySlides1">
-    <img src="IMG-20211214-WA1018.jpg" style="width:100%">
-</div>	
+
 	  <div class="mySlides1">
     <img src="IMG-20211214-WA1019.jpg" style="width:100%">
 </div>	
@@ -7882,9 +8083,7 @@ body {font-family: "Lato", sans-serif}
 	  <div class="mySlides1">
     <img src="IMG-20211214-WA1039.jpg" style="width:100%">
 </div>	
-	  <div class="mySlides1">
-    <img src="IMG-20211214-WA1040.jpg" style="width:100%">
-</div>	
+
  	  <div class="mySlides1">
     <img src="IMG-20211214-WA1041.jpg" style="width:100%">
 </div>	
