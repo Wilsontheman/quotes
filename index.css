@@ -1,0 +1,107 @@
+Get started
+Open in app
+
+
+How to send contact form data to an email address without server-side language
+Nelson Chinedu
+Nelson Chinedu
+
+May 31, 2020·5 min read
+
+
+
+
+
+
+preview image
+image from freepik
+Sending of form data to an email address requires a backend developer to make use of a server-side language which can be either PHP, NodeJS, e.t.c. by writing some logic codes to interact with the client-side (Front-end) to take some action by submitting the form data to a specified email address if all validations are meant (if there is any). But It’s okay if you don’t know any server-side language for now.
+Form data is an essential part of a web application by getting in touch with your visitors or customers that sends a message across.
+So in this article, we will be demonstrating this by creating a contact form using the below outlined.
+HTML5
+CSS3
+NETLIFY
+HTML => according to Wikipedia, Hypertext Markup Language is the standard markup language for documents designed to be displayed in a web browser.
+CSS => according to Wikipedia, is a style sheet language used for describing the presentation of a document written in a markup language like HTML.
+NETLIFY => according to Wikipedia, is a cloud computing company that offers hosting and serverless backend services for web applications and static websites. So in essence we will be deploying/hosting our little project to Netlify for free.
+N:B JavaScript can be added into the mix for Client-side validation for browsers that don’t support HTML5.
+Before continuing with the process, we need to create an account (signup), on NETLIFY by using any option provided either connecting the account with GitLab or Github by granting access to netlify, that is if you have one or by using just email. But in this case, I am using an email option to signup.
+N:B We will be using sample codes to create our form from w3schools to save up time.
+TODO
+Create a folder on your desktop to keep hold of the files needed.
+Open any text editor of your choice to create/save the index.html and index.css in the folder created earlier.
+Create an account on NETLIFY, to be signed in.
+Folder structure
+- contact-form
+|---- index.html
+|---- index.css
+#open the index.html file, to add the below sample code in any text    #editor.
+
+<!DOCTYPE html>
+  <html lang="en">
+    <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, 
+        initial-scale=1.0">
+      <link rel="stylesheet" href="./index.css">
+      <title>Sending contact form</title>
+    </head>
+    <body>
+      <div class="container">
+        <h2>Contact Us</h2>
+        <form method="POST" name="contact" data-netlify="true">
+            
+          <label for="firstname">First Name</label>
+          <input type="text" id="firstname" name="Firstname"
+            placeholder="Your name.." required>
+          <label for="lastname">Last Name</label>
+          <input type="text" id="lastname" name="Lastname" 
+            placeholder="Your last name.." required>
+          <label for="email">Email</label>
+          <input type="email" id="email" name="Email"     
+            placeholder="Your email address.." required>
+          <label for="message">Message</label> 
+          <textarea id="message" name="Subject" 
+            placeholder="Write something.." required></textarea>
+          <button type="submit"> Submit </button>
+        </form>
+      </div>
+    </body>
+  </html>
+#open the index.css file, to add the below sample code in any text    #editor.
+.container {
+  width: 40%;
+  margin: 30px auto;
+}
+h2 {
+  text-align: center;
+}
+input, select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+}
+textarea {
+  height: 150px;
+  resize: none;
+}
+button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+button:hover {
+  background-color: #45a049;
+}
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
