@@ -1,13 +1,13 @@
 
 .container {
-  width: 40%;
+  width: 60%;
   margin: 30px auto;
 }
 h2 {
   text-align: center;
 }
 input, select, textarea {
-  width: 120%;
+  width: 150%;
   padding: 12px;
   border: 1px solid #ccc;
   border-radius: 4px;
