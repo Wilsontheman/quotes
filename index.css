@@ -1,13 +1,13 @@
 
 .container {
-  width: 60%;
+  width: 40%;
   margin: 30px auto;
 }
 h2 {
   text-align: center;
 }
 input, select, textarea {
-  width: 150%;
+  width: 100%;
   padding: 12px;
   border: 1px solid #ccc;
   border-radius: 4px;
@@ -16,7 +16,7 @@ input, select, textarea {
   margin-bottom: 16px;
 }
 textarea {
-  height: 100px;
+  height: 150px;
   resize: none;
 }
 button {
